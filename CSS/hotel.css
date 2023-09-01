@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*This is reset*/
+body {
+    background-image: url(..//Images/bcc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #7c1752;
+    height:45px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color:rgb(216, 65, 168);
+    background-color: rgb(13, 70, 67);
+}
+
+h1 {
+    font-size: 5rem;
+
+}
+
+#box {
+    background-color: #0000009e;
+    height: 50%;
+    padding: 4%;
+    margin: 2%;
+    color: white;
+}
+
+table {
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    background: rgb(227, 84, 208);
+    display: block;
+    padding: 10px 20px;
+    /* border-radius: 20px;
+    text-decoration: none; */
+    margin: 0% 50%;
+    cursor: pointer;
+}
+
+table .re-sub #Reset {
+    position: relative;
+    width: 93px;
+    height: 53px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.08), 25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 51% 49% 44% 56% / 52% 30% 70% 48%;
+}
+
+table .re-sub #Reset:hover {
+    border-radius: 50%;
+}
+
+table .re-sub #Reset::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    top: 0px;
+    left: 22px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.45;
+}
+
+table .re-sub #Submit {
+    position: relative;
+    width: 93px;
+    height: 53px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.08), 25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05), inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 51% 49% 44% 56% / 52% 30% 70% 48%;
+}
+
+table .re-sub #Submit:hover {
+    border-radius: 50%;
+}
+
+table .re-sub #Submit::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    top: 0px;
+    left: 22px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.45;
+}
+
+/* .container .drop{
+    position: relative;
+    width: 393px;
+    height: 422px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.08), 25px 35px 20px rgba(0,0,0,0.05), 25px 30px 30px rgba(0,0,0,0.05), inset -20px -20px 25px rgba(255,255,255,0.9);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:51% 49% 44% 56% / 52% 30% 70% 48% ;
+    }
+    .container .drop:hover{
+        border-radius: 50%;
+        
+    }
+    .container .drop::before{
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 50px;
+        left: 85px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.9;
+    }
+    .container .drop::after{
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 90px;
+        left: 110px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.9;
+    }
+ */

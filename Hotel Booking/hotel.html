@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/hotel.css">
+    <title>Explore Hotel in kolkata</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+        #box h1{
+            font-family: "Sofia", sans-serif;
+            font-size: 50px;
+            text-shadow: 3px 3px 3px #ababab;
+        }
+       #box table #Per h3{
+            font-family: "Sofia", sans-serif;
+  font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Heritage/heritage.html">Heritage</a></li>
+        <li><a href="../Hotel Booking/hotel.html">Hotel Booking</a></li>
+        <li><a href="../Gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <form id="box">
+        <h1>Hotel Booking</h1>
+        <hr><br>
+        <table>
+            <tr>
+                <td>
+                    <p>Places in Kolkata</p>
+                </td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>Queen's Way,kolkata</option>
+                        <option>Maidan,kolkata</option>
+                        <option>Belur,Howrah</option>
+                        <option>Gour Nagar,Kolkata</option>
+                        <option>Dufferin Road,kolkata</option>
+                        <option>Jawaharlal Nehru Road,kolkata</option>
+                        <option>B.D.Bagh,kolkata</option>
+                        <option>Howrah,kolkata</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Select Hotel</p>
+                </td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>Hotel 1</option>
+                        <option>Hotel 2</option>
+                        <option>Hotel 3</option>
+                        <option>Hotel 4</option>
+                        <option>Hotel 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Check In Date</p>
+                </td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Check Out Date</p>
+                </td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Room Type</p>
+                </td>
+                <td>
+                    Single Bed
+                    <input type="radio" name="Room Type">
+                    Double Bed
+                    <input type="radio" name="Room Type">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>AC</p>
+                </td>
+                <td>
+                    AC
+                    <input type="radio" name="AC">
+                    Non-AC
+                    <input type="radio" name="AC">
+                </td>
+            </tr>
+            <tr id="Per">
+                <td>
+                    <h3><u>Personal Details</u></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Your Name</p>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Full Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Your Father's Name</p>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Fathers Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Gender</p>
+                </td>
+                <td>
+                    Male
+                    <input type="radio" name="Gender">
+                    Female
+                    <input type="radio" name="Gender">
+                    Others
+                    <input type="radio" name="Gender">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Address</p>
+                </td>
+                <td><textarea rows="6" cols="25" placeholder="Enter Your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Select Document</p>
+                </td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>Aadhaar Card</option>
+                        <option>Driving Lisence</option>
+                        <option>Passport</option>
+                        <option>Voter Card</option>
+                        <option>Ration Card</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Document Number</p>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Document Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Mobile Number</p>
+                </td>
+                <td>
+                    <input type="Number" placeholder="Mobile Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>E-Mail ID</p>
+                </td>
+                <td>
+                    <input type="email" placeholder="Enter Email ID" required>
+                </td>
+            </tr>
+            <tr class="re-sub">
+                <td>
+                    <button id="Reset" type="reset">Reset</button>
+                </td>
+                <td>
+                    <button id="Submit" type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

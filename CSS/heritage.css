@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*This is reset*/
+body {
+    background-image: url(..//Images/bcc.jpg);
+    background-size: contain;
+    /* background-position-y: 250px;
+    background-repeat: no-repeat; */
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #7c1752;
+    height:45px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color:rgb(216, 65, 168);
+    background-color: rgb(13, 70, 67);
+}
+
+h1 {
+    font-size: 5rem;
+
+}
+
+.container {
+    display: flex;
+    padding: 13px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000000b0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.card {
+    background: #4597c2;
+    width: 320px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+
+
+}
+
+.card-image {
+    background-color: #fff;
+    height: 220px;
+    margin-bottom: 15px;
+
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.place-1 {background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Metcalfe-Hall.jpg);}
+.place-2 {background-image: url(http://www.rajbhavankolkata.nic.in/images/Raj%20Bhavan%20Pic-1%20-%20Copy%20(2).jpg);}
+.place-3 {background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Writer%E2%80%99s-Building.jpg);}
+.place-4 {background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/St.-Paul%E2%80%99s-Cathedral.jpg);}
+.place-5 {background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Indian-Museum.jpg);}
+.place-6{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Victoria-Memorial-Sound-and-Light-Show.jpg);}
+.place-7{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Fort-William.jpg);}
+.place-8{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Jorasanko-Thakur-Bari.jpg);}
+.place-9{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/02/Enjoy-the-beauty-of-Howrah-Bridge.jpg);}
+.place-10{background-image:url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Kalighat1.jpg);}
+.place-11{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Town-Hall.jpg);}
+.place-12{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Shaheed-Minar.jpg);}
+.place-13{background-image: url(https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Marble-Palace.jpg);}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.card a {
+    background-color: rgba(240, 7, 7, 0.927);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 50px;
+    display: block;
+    text-decoration: none;
+
+}
